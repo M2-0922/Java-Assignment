@@ -27,8 +27,6 @@ public class A3 {
         arrayOfCars.add(new Car("Porsche", "911", 1963));
 
         Collections.sort((List<Car>) arrayOfCars);
-        // System.out.println("Array of Cars: " + (arrayOfCars));
-
     
         for (Car car : arrayOfCars) {
             System.out.println("- make: " + car.make);
