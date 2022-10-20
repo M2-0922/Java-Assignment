@@ -22,7 +22,6 @@ public class A1{
     	System.out.println("type a number");
         int num = number.nextInt();
         
-        //Pattern 1
         if(intList.contains(num)) 
         	System.out.println("the number is in the list");
         else
